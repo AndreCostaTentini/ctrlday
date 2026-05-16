@@ -731,6 +731,38 @@
           </div>
         </a>
 
+        <!-- ══════════════════════════════════════════════════════
+          CARD 9 — EM BRANCO (a preencher)
+          Para preencher: substitua o src da imagem, o card-title,
+          o card-student, o data-category e o openDetail(índice).
+          Lembre de adicionar o projeto correspondente no array
+          `projects` no JavaScript abaixo (índice 8).
+        ══════════════════════════════════════════════════════ -->
+        <a href="#" class="card reveal" data-category="game" onclick="openDetail(8); return false;">
+          <div class="card-thumb">
+            <!-- SUBSTITUIR: adicionar imagem do projeto aqui -->
+            <div class="card-thumb-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="4" width="40" height="40" rx="8" stroke="#d36e2a" stroke-width="2" stroke-dasharray="6 4"/>
+                <path d="M24 16V32M16 24H32" stroke="#d36e2a" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="card-thumb-overlay">
+              <div class="card-play-btn">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 4L16 10L6 16V4Z" fill="#050a0f"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <!-- SUBSTITUIR: trocar tag-game por tag-web se for site -->
+            <span class="card-tag tag-game">🎮 Jogo</span>
+            <!-- SUBSTITUIR: título do projeto -->
+            <div class="card-title">Lorem ipsum dolor sit</div>
+            <!-- SUBSTITUIR: nome do(s) aluno(s) -->
+            <div class="card-student">Lorem ipsum · 00 anos</div>
+          </div>
+        </a>
+
       </div><!-- /cards-grid -->
     </section>
 
@@ -1029,6 +1061,30 @@
           age: null,                          /* SUBSTITUIR: idade (número) ou null */
           city: "Várzea Paulista, SP",        /* SUBSTITUIR: cidade */
           photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80", /* SUBSTITUIR: foto */
+          bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\""
+        }
+      }
+
+      /* ── PROJETO 8 — EM BRANCO (a preencher) ────────────────────
+         Substitua todos os campos abaixo com as informações reais.
+         Mantenha a estrutura do objeto intacta.
+      ──────────────────────────────────────────────────────────── */
+      ,{
+        id: 8,
+        category: "game",                     /* SUBSTITUIR: "game" ou "web" */
+        title: "Lorem Ipsum Dolor Sit",       /* SUBSTITUIR: nome do projeto */
+        projectUrl: "#",                      /* SUBSTITUIR: URL do projeto */
+        coverImg: "",                         /* SUBSTITUIR: caminho da imagem */
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        challenge: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        learnings: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        techs: ["Lorem", "Ipsum", "Dolor"],   /* SUBSTITUIR: tecnologias usadas */
+        student: {
+          name: "Lorem Ipsum",                /* SUBSTITUIR: nome do aluno */
+          age: null,                          /* SUBSTITUIR: idade (número) ou null */
+          city: "Várzea Paulista, SP",        /* SUBSTITUIR: cidade */
+          photo: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&q=80", /* SUBSTITUIR: foto */
           bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           quote: "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\""
         }
